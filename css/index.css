@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: Asap, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1F1E1F;
+    color: white;
+}
+
+body {
+    background: #35698A;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20% 50px 20%;
+    border: 5px solid white;
+}
+
+.bodyPart {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 50%;
+    border: 4px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 5px;
+}
+
+#images {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.text {             /* or simply write a or .container > .bodyPart > a ;but this is preferred */
+    text-decoration: none;
+    font-family: Asap,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    flex: 1 1 200px;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+    background-color: #47484B; /*for seeing*/
+    
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
