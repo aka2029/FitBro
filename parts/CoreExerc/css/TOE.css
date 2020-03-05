@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+
+body{
+    background-color: #24272E;
+}
+
+header > h1 {   /* this can be done without > sigh */
+    color: #25272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.textClass {
+    text-align: center;
+    font-family: Asap, sans-serif;
+    color:  white;
+    background-color: black;
+    border: 4px solid white;
+    padding: 5%;
+    margin: 10px;
+}
+
+.mediaClass {
+    border: 5px solid red;
+    margin: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
